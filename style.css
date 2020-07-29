@@ -1,0 +1,244 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+
+#navbar{
+  list-style-type: none;
+  margin: 0.75%;
+  padding:0.75%;
+  overflow: hidden;
+  background-color: white;
+  max-width: 110%;
+  max-height: 100%
+}
+
+ul{
+  float: right;
+  padding-top: 2%;
+}
+
+ul li{
+  display:inline-block;
+}
+
+ul li a{
+  font-family: avenir light;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:8px;
+  padding-bottom:8px;
+  border: 2px solid #f5abab;
+  background-color: #fbe3e3;
+  text-decoration:none;
+  color:black;
+  margin:4px;
+  transition: 0.4s ease;
+}
+
+ul li a:hover{
+  background-color: #ed9090;
+  border-color: #e55d74;
+  color:white;
+}
+
+.logo img{
+  float: left;
+  width:17%;
+  height:auto;
+}
+
+.selfie img{
+  float: left;
+  width:33%;
+  padding-left: 10%;
+  margin-left: 7.5%;
+  padding-top: 3%;
+  position: absolute;
+  background-color: #fbe3e3;
+}
+#aboutme
+{
+  font-family: avenir light;
+  border: 80% solid black;
+  background-color: #fbe3e3;
+  width:30%;
+  height:30%;
+  padding-left: 55.5%;
+  margin-left: 7.5%;
+  padding-top:3%;
+  margin-top:-1.5%;
+  padding-bottom:3%;
+}
+
+.about
+{
+  transform: rotate(270deg);
+  text-align: left;
+  font-size: 180%;
+  padding-top: 27%;
+  padding-bottom: 45%;
+  margin-left: 15%;
+  margin-right:20%;
+  margin-top: -20%;
+  position: absolute;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 10px;
+}
+
+.intro
+{
+  font-size: 160%;
+  font-family: lucida sans unicode ;
+  text-indent: -6%;
+  padding-top: -20%;
+}
+
+.myself
+{
+
+  font-family: lucida sans unicode ;
+  font-size: 130%;
+  font-style: italic;
+  word-spacing: 20%;
+}
+#paragraph1
+{
+  margin-left:-15%;
+  margin-right:15%;
+}
+
+#paragraph2
+{
+  margin-left:-15%;
+  margin-right:15%;
+}
+
+#gallery
+{
+  /* margin:7.5%; */
+  padding:3%;
+  margin-right:1%;
+  margin-left:5.5%;
+  overflow-y: hidden;
+  height:150%;
+  position: absolute;
+}
+
+#gallery img
+{
+  padding:5%;
+  border-radius: 10px;
+  background-color: #fbe3e3;
+  border: 5px solid #f5abab;
+}
+
+#gallery-text
+{
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 17px;
+  word-spacing: 20px;
+  margin-left:23.5%;
+  padding-bottom:5%;
+  padding-top: 2%;
+  font-size: 45px;
+}
+
+#seemore{
+  position:absolute;
+  text-align: center;
+  margin-left: 43.75%;
+  margin-top:95%;
+  padding-bottom: 2%;
+  color: #eb8a8a;
+  text-decoration:none;
+  font-family: 'Open Sans', sans-serif;
+
+}
+#seemore:hover{
+  cursor: pointer;
+}
+
+.column{
+  float: left;
+  width: 32.5%;
+  padding: 5px;
+}
+
+.row::after
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.book{
+  position:relative;
+  margin-top:100%;
+  margin-left: 38%;
+  /* margin-bottom: 30%; */
+  letter-spacing: 17px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 53px;
+}
+
+iframe{
+  margin:20%;
+}
+
+#contact{
+  background-color: #fbe3e3;
+  /* margin:20%; */
+  padding:5%;
+}
+
+#contactme
+{
+  letter-spacing: 20px;
+  margin-left: 35.5%;
+}
+
+.intouch
+{
+  margin-top: 3%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-right:50%;
+}
+#intouch1
+{
+  padding: 20px;
+
+}
+#location
+{
+  padding: 20px;
+}
+#insta
+{
+  padding: 20px;
+}
+#email
+{
+  padding: 20px;
+}
+
+#emailbutton
+{
+  font-family: avenir light;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border: 2px solid #f5abab;
+  background-color: #fbe3e3;
+  text-decoration:none;
+  color:black;
+  margin:4px;
+  transition: 0.4s ease;
+}

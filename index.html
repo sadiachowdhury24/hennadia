@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+  <html>
+   <head>
+
+    <title>
+      Welcome to hennadia!
+    </title>
+    <!-- stylesheet -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href = "style.css"/>
+    <!-- javascript -->
+    <!-- <script src = "seemore.js"></script> -->
+
+   </head>
+    <body>
+            <!-- NAVBAR -->
+
+          <div id = "navbar">
+            <div class = "logo">
+              <img src = "logo.png">
+            </div>
+            <ul>
+              <li> <a  href="#">Home</a></li>
+              <li> <a  href="#aboutme">About Me</a> </li>
+              <li> <a  href="#gallery">Design Gallery</a> </li>
+              <li> <a  href="#bookme">Book Me</a> </li>
+              <li> <a  href="#contact">Contact</a> </li>
+            </ul>
+          </div>
+
+        <!-- BODY OF THE PAGE -->
+        <!-- ABOUT ME -->
+        <div class = "selfie">
+          <img src = "selfie.png">
+          <div>
+           <span class ="about">
+           <br>  <p> ABOUT ME  </p> </br>
+          </span>
+        </div>
+      </div>
+        <div id = "aboutme">
+           <span class = "intro">
+             <br><h1> Hi, I am Sadia. </h1></br>
+           </span>
+           <span class = "myself">
+            <br>
+             <p id = "paragraph1">
+              I am a self-learned henna artist since past two years. I have done numerous
+              henna designs on clients on Eid parties, Eid stalls, weddings, and friends
+              and family. From a very young age, I loved henna and the tradition of applying
+              henna on hands as a form of art.
+              </p>
+            </br>
+            <br>
+             <p id = "paragraph2">
+              I am a self-learned henna artist since past two years. I have done numerous
+              henna designs on clients on Eid parties, Eid stalls, weddings, and friends
+              and family. From a very young age, I loved henna and the tradition of applying
+              henna on hands as a form of art.
+              </p>
+            </br>
+         </span>
+        </div>
+
+        <!-- Gallery -->
+        <div id = "gallery">
+          <h1 id = "gallery-text"> DESIGN GALLERY </h1>
+          <div class = "row">
+            <div class= "column">
+              <img src = "henna1.png" height = "400" width = "300">
+            </div>
+            <div class = "column" >
+              <img src = "henna2.png" height = "400" width = "300">
+            </div>
+            <div class = "column">
+              <img src = "henna3.png" height = "400" width = "300">
+            </div>
+            <div class = "column">
+              <img src = "henna4.png" height = "400" width = "300">
+            </div>
+            <div class = "column">
+              <img src = "henna5.png" height = "400" width = "300">
+            </div>
+            <div class = "column">
+              <img src = "henna6.png" height = "400" width = "300">
+            </div>
+            <div class = "column">
+              <img src = "henna7.png" height = "400" width = "300">
+            </div>
+            <div class = "column">
+              <img src = "henna8.png" height = "400" width = "300">
+            </div>
+            <div class = "column">
+              <img src = "henna9.png" height = "400" width = "300">
+            </div>
+            <div class = "column">
+              <img src = "henna10.png" height = "400" width = "300">
+            </div>
+            <div class = "column">
+              <img src = "henna11.png" height = "400" width = "300">
+            </div>
+            <div class = "column">
+              <img src = "henna12.png" height = "400" width = "300">
+            </div>
+          </div>
+       </div>
+
+
+     <!-- See more (Gallery) -->
+       <div>
+         <h2 id = "seemore">
+            click to see more
+         </h2>
+       </div>
+
+     <!-- javascript of see more -->
+       <script>
+       function expand(){
+         document.getElementById("bookme").style.marginTop = "150%";
+         document.getElementById("seemore").style.visibility = "hidden";
+         var u = document.getElementById("gallery");
+         u.style.height = "250%";
+         var y = document.getElementsByClassName("column");
+         var i;
+         for(i = 0; i < 10; i++){
+           y[i].style.opacity = "1";
+         }
+        }
+        document.getElementById("seemore").addEventListener("click", expand);
+       </script>
+
+
+
+     <!-- Book me -->
+     <div id = "bookme">
+       <h1 class = "book">
+          BOOK ME
+        </h1>
+     </div>
+
+     <div>
+       <iframe src="https://calendar.google.com/calendar/b/7/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=aGVubmFieXNhZGlhMjRAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=MTVldGM2NXExczlpY2dhbzNzNTI5OWNpZXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%23AD1457&amp;color=%230B8043" style="border:solid 1px #777" width="800" height="700" frameborder="0" scrolling="no"></iframe>
+     </div>
+
+     <!-- Contact Me -->
+
+     <div id = "contact">
+       <h1 id = "contactme"> CONTACT ME </h1>
+
+
+       <div class="grid-container">
+        <div class="grid-item" id ="intouch1">
+          <h2 class = "intouch"> Let's </h2>
+          <h2 > Get  </h2>
+          <h2 > In  </h2>
+          <h2 > Touch </h2>
+        </div>
+
+
+        <div class="grid-item" id ="location">
+          <h2> Location: </h2>
+          <h3> NEW YORK </h3>
+        </div>
+
+        <div class="grid-item" id ="insta">
+          <h2>Instagram:</h2>
+          <a  href="https://www.instagram.com/hennadia__/">hennadia</a>
+        </div>
+        <div class="grid-item" id ="email">
+          <h2>Email:</h2>
+          <h3> hennabysadia24@gmail.com </h3>
+          <a  id = "emailbutton" href="mailto: hennabysadia24@gmail.com">Send an email now </a>
+        </div>
+
+      </div>
+     </div>
+
+
+
+    </body>
+
+  </html>

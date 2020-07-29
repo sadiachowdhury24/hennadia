@@ -1,0 +1,24 @@
+To do list
+1. Navbar
+  -The name and logo
+  -all the buttons in the Navbar
+
+2. Parallax affect
+  - Pictures of wedding henna/ Eid festival
+
+3. 1st section of the website
+  - a picture of me with henna
+  - write a text of "about me"
+
+4. 2nd section
+  - Titled "designs/Prices"
+  - slideshow of my Pictures
+
+5. 3rd section
+  - Book now button
+  - Add a card for all the book me info
+
+6. 4th section
+  - Contact info
+
+7. make a another page for a gallery of your Pictures
