@@ -55,7 +55,7 @@ ul li a:hover{
   width:33%;
   padding-left: 10%;
   margin-left: 7.5%;
-  padding-top: 3%;
+  padding-top: 1.5%;
   position: absolute;
   background-color: #fbe3e3;
 }
@@ -178,67 +178,54 @@ ul li a:hover{
   position:relative;
   margin-top:100%;
   margin-left: 38%;
-  /* margin-bottom: 30%; */
+  margin-bottom: 2%;
   letter-spacing: 17px;
   font-family: 'Nanum Myeongjo', serif;
   font-size: 53px;
+
+
+}
+
+.bookpara{
+  margin-left: 27.5%;
+  margin-bottom: 1%;
 }
 
 iframe{
-  margin:20%;
+  margin:2%;
+  margin-left:27.5%;
+  padding:2%;
+  background-color:#fbe3e3;
 }
 
-#contact{
-  background-color: #fbe3e3;
-  /* margin:20%; */
-  padding:5%;
-}
 
 #contactme
 {
   letter-spacing: 20px;
   margin-left: 35.5%;
 }
-
-.intouch
-{
-  margin-top: 3%;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin-right:50%;
-}
-#intouch1
-{
-  padding: 20px;
-
-}
-#location
-{
-  padding: 20px;
-}
-#insta
-{
-  padding: 20px;
-}
-#email
-{
-  padding: 20px;
-}
-
-#emailbutton
-{
-  font-family: avenir light;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top:10px;
-  padding-bottom:10px;
-  border: 2px solid #f5abab;
+#contact{
   background-color: #fbe3e3;
-  text-decoration:none;
-  color:black;
-  margin:4px;
-  transition: 0.4s ease;
+  padding-left:5%;
+  padding-top:2%;
+}
+
+#icons{
+
+  margin-left: 43%;
+  margin-right: 40%;
+}
+
+#instagram{
+  margin-right:6%;
+}
+
+#locationicon{
+  margin-left:46.75%;
+}
+
+#newyork{
+  margin-left:43.85%;
+  padding-bottom:1%;
+
 }
